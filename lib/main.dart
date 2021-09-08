@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice/home.dart';
 
 void main() {
   runApp(PracticeApp());
@@ -7,12 +8,6 @@ void main() {
 class PracticeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Text("Welcome to practice app"),
-        ),
-      ),
-    );
+    return MaterialApp(home: Home());
   }
 }
